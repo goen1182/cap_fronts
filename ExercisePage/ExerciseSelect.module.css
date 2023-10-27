@@ -1,0 +1,227 @@
+.Logo{
+    position: absolute;
+    left: 75px;
+    top: 27px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #fff;
+    background-color: transparent;
+
+    /* identical to box height  */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+.Frame{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1870px;
+    height: 1030px;
+    margin: 25px;
+
+    background: rgba(141, 141, 141, 0.35);
+    border: 1px solid rgba(5, 5, 5, 0.01);
+    backdrop-filter: blur(13px);
+
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 10px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.ExerciseGroup{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.Subtitle{
+    padding-top : 75px;
+
+    font-family: 'Apple Braille';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 87px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.SubtitleDescription{
+    font-family: 'Apple Braille';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: rgba(255, 255, 255, 0.83);
+}
+
+.ExerciseContentFrame{
+    box-sizing: border-box;
+
+    position: relation;
+    width: 1620px;
+    height: 600px;
+    margin-top: 50px;
+    
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.RealcamFrame{
+
+    position: relative;
+    width: 810px;
+    height: 600px;
+
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    
+    border-radius: 10px 0px 0px 10px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.RealcamSpace{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 640px;
+    height: 480px;
+    /*
+    left: 85px;
+    top: calc(50% - 480px/2);
+    */
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.ExerciseRoutineFrame{
+    position: relative;
+    width: 810px;
+    height: 600px;
+
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+
+    border-radius: 0px 10px 10px 0px;
+
+    display: center;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ExerciseRoutine{ /* 오른쪽의 운동 루틴 박스 */
+    position: relative;
+    width: 640px;
+    height: 120px;
+    margin: 22px Auto;
+
+    background: rgba(255, 255, 255, 0.36);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(11.3px);
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ExerciseInfo{
+    display: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ExerciseCategory{
+    position: relative;
+    margin-bottom: 2px;
+    font-family: 'Apple Braille'/*'Noto Sans KR'*/;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 125%;
+
+    color: #FFFFFF;
+}
+
+.ExerciseName{
+    position: relative;
+    /*width: 112px;
+    left: calc(50% - 112px/2);
+    top: 37.78%;
+    bottom: 25.19%;*/
+
+    font-family: 'Apple Braille'/*'Noto Sans KR'*/;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 125%;
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+.ExerciseStartBtnBox{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.ExerciseStartBtn{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+    margin-top: 60px;
+
+    padding: 20px 57px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(5, 5, 5, 0.01);
+    background: rgba(141, 141, 141, 0.50);
+    backdrop-filter: blur(15.399999618530273px);
+    border: none;
+}

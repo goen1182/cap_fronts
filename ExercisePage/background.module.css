@@ -1,0 +1,8 @@
+body {
+    background-image: url("/Users/ian/Desktop/CaptoneDesign2023/blog/src/MainPhoto.png");
+    width: 1920px;
+    height: 1080px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
